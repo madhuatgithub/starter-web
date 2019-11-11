@@ -2,4 +2,6 @@ Prometheus is another popular solution for collecting Kubernetes metrics, with s
 
 Since Prometheus does not have a Heapster sink, you can use InfluxDB and Prometheus together for the same Grafana instance, collecting different metrics, whenever each one is easier to collect.
 
+re various methods of hooking in ELK with our Kubernetes. One method, for example, uses deploys fluentd as a DaemonSet. In the example below, however, we will simply create an Elasticsearch sink for Heapster.
 
+First, in the elk folder in our repository, run the file
