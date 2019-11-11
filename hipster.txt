@@ -1,0 +1,5 @@
+Prometheus is another popular solution for collecting Kubernetes metrics, with several tools, frameworks, and API’s available for using it.
+
+Since Prometheus does not have a Heapster sink, you can use InfluxDB and Prometheus together for the same Grafana instance, collecting different metrics, whenever each one is easier to collect.
+
+
